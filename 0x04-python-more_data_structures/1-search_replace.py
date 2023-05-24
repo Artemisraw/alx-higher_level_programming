@@ -5,8 +5,9 @@ def search_replace(my_list, search, replace):
     arr = search - 1
     for x in my_list:
         new_list.append(x)
+    count = 0
     for x in new_list:
         if x is search:
-            arr = x - 1
-            new_list[arr] = replace
+            new_list[count] = replace
+        count += 1
     return new_list
