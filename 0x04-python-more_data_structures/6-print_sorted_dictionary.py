@@ -1,0 +1,10 @@
+#!/usr/bin/python3
+
+def print_sorted_dictionary(a_dictionary):
+    sort = sorted(a_dictionary.keys())
+    new_list = []
+
+
+    for x in sort:
+        print("{}: {}".format(x, a_dictionary[x]))
+
