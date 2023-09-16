@@ -4,6 +4,10 @@
 
 
 class Square:
+
+    """This is a Square Class """
+
+
     def __init__(self, size=0):
         """Initializing the clsaa
 
