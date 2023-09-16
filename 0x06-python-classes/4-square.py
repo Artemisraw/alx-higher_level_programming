@@ -5,8 +5,7 @@
 
 class Square:
 
-    """This is a Square Class """
-
+    """This is a Square Class"""
 
     def __init__(self, size=0):
         """Initializing the clsaa
@@ -23,10 +22,10 @@ class Square:
 
     @size.setter
     def size(self, value):
-        """Setter method for the method size """
+        """Setter method for the method size"""
 
-        if type(value) != int:
-            """ Checks if the size is an integer"""
+        if type(value) is not int:
+            """Checks if the size is an integer"""
             raise TypeError("size must be an integer")
 
         if value < 0:
