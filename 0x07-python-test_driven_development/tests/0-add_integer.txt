@@ -1,0 +1,32 @@
+"""
+Add two integers
+
+a: first integer
+b: second integer
+
+>>> add_integer(2, 3)
+5
+
+>>> add_integer(5)
+103
+
+
+>>> add_integer(1.0 , 3)
+4
+
+
+
+>>> add_integer("7")
+a must be an integer
+
+
+
+>>> add_integer(2, "0")
+b must be an integer
+
+
+
+>>> add_integer(None)
+a must be an integer
+
+"""
