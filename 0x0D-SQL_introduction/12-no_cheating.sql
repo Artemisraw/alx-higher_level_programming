@@ -1,2 +1,2 @@
-
+-- Cghanges tha score of the person iin question
 UPDATE second_table SET score = 10  WHERE name = "Bob" 

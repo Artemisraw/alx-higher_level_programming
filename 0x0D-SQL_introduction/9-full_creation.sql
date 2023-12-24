@@ -1,4 +1,4 @@
-
+--Full creation of the table
 CREATE TABLE IF NOT EXISTS second_table (
 	id int,
 	name varchar(256),
